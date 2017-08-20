@@ -1,0 +1,239 @@
+body{
+	background-color: white;
+}
+													/* Navbar */
+.logo{
+	font-family: 'Exo', sans-serif;
+}
+.navbar p{
+	font-size:28px;
+	padding:5px 0 0 0;
+	margin:0 16px 0 0;
+	color:silver;
+}
+.navbar-inverse{
+	border: 1px solid LightSeaGreen;
+	font-family: 'Play', sans-serif;
+	font-size:20px;
+}
+.navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-tops{
+	position: fixed;
+}
+
+/*  navbar-buttons */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a{
+	color: LightSeaGreen;
+
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
+	background-color: LightSeaGreen;
+}
+.navbar-inverse .navbar-nav>li>a{
+	text-align: center;
+	color: LightSeaGreen;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	font-weight:800;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	background-color: LightSeaGreen;
+	color:white;
+	font-size:large;
+	border:1px solid white;
+	font-weight:900;
+	font-size:25px;
+}
+
+/* Menu Dropdown*/
+.dropdown-menu>li>a{
+	color:rgba(195, 125, 218);
+	font-size:18px;
+}
+.dropdown-menu>li>a:hover{
+	color:white;
+	font-size:25px;
+	background-color:rgba(189, 119, 213, 0.75) !important; /* For mobile size, enables purple background on hover*/
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+	color:rgba(195, 125, 218);
+}
+/* Dropdown search button*/
+button{
+	background-color:rgba(25,25,25,.5);
+	text-align:center;
+	max-width:80px;
+	border:none;
+	margin:0 0 0 0;
+}
+button a{
+	color:grey;
+}
+button a:hover{
+	color:LightSeaGreen;
+}
+												/* 2nd Navbar */
+
+.mynavv{
+	border-bottom:1px solid grey;
+	height:30px;
+	width:100%;
+	margin:0;
+	background-color:#222;
+	position:absolute;
+	top:50px;
+}
+.mynavv .navbar-nav>li>a{
+	color:grey;
+	font-size:13px;
+}
+.mynavv .liTopics{
+	color: white;
+	padding:3px 10px 0 0;
+	font-size:15px;
+	border-right:1px solid grey;
+	margin:12px 3px 0 0;
+
+}
+.mynavv .navbar-nav>li>.a1:hover{
+	background-color:dodgerblue;
+	border-radius:20px;
+	margin:5px;
+	padding:9px;
+	font-size:20px;
+}
+.mynavv .navbar-nav>li>.a2:hover{
+	background-color:blueviolet;
+	border-radius:20px;
+	margin:5px;
+	padding:9px;
+	font-size:20px;
+}
+.mynavv .navbar-nav>li>.a3:hover{
+	background-color:#2C73C7;
+	border-radius:20px;
+	margin:5px;
+	padding:9px;
+	font-size:20px;
+}
+.mynavv .navbar-nav>li>.a4:hover{
+	background-color:goldenrod;
+	border-radius:20px;
+	margin:5px;
+	padding:9px;
+	font-size:20px;
+}
+.mynavv .navbar-nav>li>.a5:hover{
+	background-color:lime;
+	border-radius:20px;
+	margin:5px 0;
+	padding:9px;
+	font-size:20px;
+}
+.mynavv .navbar-nav>li>.a6:hover{
+	border-radius:20px;
+	margin:5px 0;
+	padding:9px;
+	font-size:20px;
+}
+#leftBurger {
+	float:left;
+}
+
+												/* Top Module */
+
+/* 1st Section */
+.jumbotron{
+	background-color:rgba(16,16,16,0.8);
+	margin-top:0px;
+	position: relative;
+	top:50px;
+}
+.row{
+	margin-right:0;
+}
+.carousel {
+	width:100%;
+}
+
+/* 2nd Section */
+#paraSection{
+	padding-top:70px;
+	margin-left:15px;
+	color:silver;
+}
+#paraSection .btn-primary{
+	background-color:rgba(189, 119, 213, 0.75);
+	outline:none;
+	border:1px solid white;
+}
+#paraSection a{
+	margin-top:25px;
+}
+
+												/* Mid-Section Module */
+.iconsBar{
+	float:right;
+	padding-bottom:10px;
+}
+.mid-row{
+	background-color:lightgrey;
+	margin:100px 13px;
+	padding:10px;
+}
+.newsLetter{
+	background:url(../images/e5.jpg);
+	padding:25px 0;
+	border-radius:25px;
+	color:white;
+	font-weight:100;
+	margin:10px 0 10px 10px;
+	height:280px;
+}
+.newsLetter input[type~="text"]{
+	color:black;
+	font-size:16px;
+}
+.blogPost{
+	font-size:15px;
+	background-color:#F5F5DC;
+	border:1px solid grey;
+	border-top:2px solid black;
+	border-bottom:3px solid black;
+	margin:10px 0;
+	padding-bottom:20px;
+}
+.blogPost img{
+	height:210px;
+	width:70%;
+	margin:5px auto;
+	margin-bottom:20px;
+}
+.blogPost a{
+	color:lightSeaGreen;
+	margin-left:15px;
+	font-size:15px;
+}
+.blogPost h3{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+													/* Footer */
+footer{
+	background-color:#000;
+	height:270px;
+	color:LightSeaGreen;
+	text-align:center;
+	padding:50px;
+}
+footer p{
+	padding-left:40px;
+	font-size:50px;
+	margin-bottom:90px;
+}
+
+footer li{
+	list-style:none;
+	display:inline-block;
+	padding-right:15px;
+}	
